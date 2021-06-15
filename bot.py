@@ -67,4 +67,4 @@ async def c(ctx):
     user = await client.get_user_info("445271451159887889")
     await client.send_message(user, "Hey wassup bro")
 
-client.run('ODQwOTczODAzNDMzMzYxNDA4.YJf_4w.-WOWE3Gx0Demxtn-qZ9qsZwUTV8')
+client.run('priv')
