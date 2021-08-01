@@ -62,9 +62,4 @@ async def on_member_join(member):
 async def on_member_remove(member):
     print(f'{member} has left a server')
 
-@client.command()
-async def c(ctx):
-    user = await client.get_user_info("445271451159887889")
-    await client.send_message(user, "Hey wassup bro")
-
-client.run('priv')
+client.run('put your token here')
